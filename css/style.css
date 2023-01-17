@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+.centered {
+    margin: 0 auto !important;
+    margin-top: 8rem !important;
+    float: none !important;
+}
+
+body{
+	background-color: rgb(237, 237, 237) !important;
+}
+
+main{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.btviewcontato{
+    margin-left: 69rem;
+}
+
+.btviewtelefone{
+    margin-left: 57rem;
+}
+.btviewcategoria{
+    margin-left: 73rem;
+}
+.cxnotifica{
+	position: absolute;
+	top: 150px;
+	right: 0px;
+	left: 0px;
+	margin: 0px auto;
+	padding: 10px;
+	width: 45%;
+	height: auto;
+	min-height: 300px;
+	background-color: #ccc;
+	border: 1px solid #000;
+	box-shadow: 1px 1px 6px 0px #000;
+	border-radius: 10px;
+	z-index: 1000;
+}
+
+.pesquisa{
+	width: 35% !important;
+	margin-bottom: 39px !important;	
+}
+
+.info{
+	width: 20% !important;
+}
+
+.containerCard{
+	width: 100%;
+	height: auto;
+	min-height: 300px;
+	/*border: #000 1px solid;*/
+	margin-top: 2rem;
+	display:flex !important;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+
+.cardContato{
+	width: 20rem;
+	min-height: 13rem !important;
+	height: auto !important;
+	margin: 15px 5px 0px 10px;
+	display: flex !important;
+	flex-wrap: wrap;
+}
+
+.containerBt{
+	gap: 1rem;
+}
+
+.favoritoContato{
+	display: flex;
+	justify-content: right;
+}
+
+.infoContainer{
+	margin: 10px 0px 15px 12px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.viewCardPerfl{
+	margin-left: 365px;
+}
+
+.boxPerfilDois{
+	margin-left: 20rem;
+}
+
+.categoriaView{
+	width: 38%;
+	margin-top: 36px;
+}
+
+
+
+@media (max-width: 1023px){
+
+	.viewCardPerfl{
+		margin-left: 0px;
+	}
+	
+	.boxPerfilDois{
+		margin-left: 0rem;
+	}
+
+	.categoriaView{
+		width: 18%;
+		margin-top: 0px;
+	}
+
+
+
+}
